@@ -1,0 +1,8 @@
+<div class="card" style="width: 18rem;">
+  <img [src]="user?.avatar" class="card-img-top">
+  <div class="card-body">
+    <h6 class="card-title">First Name:{{user?.first_name}} </h6>
+    <h6 class="card-title">Last Name: {{user?.last_name}}</h6>
+    <button class="btn btn-primary" (click)="navigatetoall()">Back to all users</button>
+  </div>
+</div>
